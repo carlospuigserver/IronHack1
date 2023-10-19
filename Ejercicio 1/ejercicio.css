@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 50px;
+    background-color: yellow;
+
+}
+
+.header-div-1, .header-div-2{
+    height: 100%;
+    background-color: yellow;
+}
+
+.header-div-1 {
+    width: 28%;
+    border-right: solid 1px black;
+    float: left;
+}
+
+.separator {
+    width: 2%;
+    height: 100%;
+    float: left;
+}
+
+.header-div-2 {
+    width: 69%;
+    border-left: solid 1px black;
+    float: right;
+}
+
+#content {
+    clear: both;
+    height: 300px;
+}
+
+.sidebar {
+    width: 28%;
+    height: 100%;
+    float: left;
+    padding-top: 2%;
+}
+
+.red-sidebar {
+    height: 50%;
+    border: solid 1px black;
+    background-color: red;
+}
+
+.right-sidebar {
+    height: 100%;
+    width: 69%;
+    padding-top: 2%;
+    float: right;
+}
+
+.main-content {  
+    height: 66%;
+    background-color: green;
+}
+
+.footer {
+    clear: both;
+    margin-top: 4%;
+    height: 30%;
+    background-color: blue;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+h1 span {
+    text-transform: lowercase;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+    display: block; 
+    margin: auto;
+}
