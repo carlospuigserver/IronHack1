@@ -3,66 +3,65 @@ body {
     padding: 0;
 }
 
-#header {
+#encabezado {
     height: 50px;
     background-color: yellow;
-
 }
 
-.header-div-1, .header-div-2{
+.encabezado-izquierdo, .encabezado-derecho {
     height: 100%;
     background-color: yellow;
 }
 
-.header-div-1 {
+.encabezado-izquierdo {
     width: 28%;
     border-right: solid 1px black;
     float: left;
 }
 
-.separator {
+.separador {
     width: 2%;
     height: 100%;
     float: left;
 }
 
-.header-div-2 {
-    width: 69%;
+.encabezado-derecho {
+    width: 70%;
     border-left: solid 1px black;
     float: right;
 }
 
-#content {
+#contenido {
     clear: both;
     height: 300px;
 }
 
-.sidebar {
+.barra-lateral {
     width: 28%;
     height: 100%;
     float: left;
     padding-top: 2%;
 }
 
-.red-sidebar {
+.barra-roja {
     height: 50%;
     border: solid 1px black;
     background-color: red;
 }
 
-.right-sidebar {
+.barra-derecha {
     height: 100%;
-    width: 69%;
+    width: 70%;
     padding-top: 2%;
     float: right;
 }
 
-.main-content {  
+.contenido-principal {  
     height: 66%;
     background-color: green;
 }
 
-.footer {
+.pie {
     clear: both;
     margin-top: 4%;
     height: 30%;
@@ -78,12 +77,12 @@ h1 {
 h1 span {
     text-transform: lowercase;
     text-decoration: none;
-    color:blueviolet;
+    color: blueviolet;
 }
 
-.imagen {
+.imagen-principal {
     width: 50%;
     height: 50%;
-    display: block; 
+    display: block;
     margin: auto;
 }
